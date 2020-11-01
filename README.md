@@ -1,6 +1,6 @@
 # BatSwarming
 
-Planung Matlab-Ersatz für Lena und Frauke
+Planung Matlab-Ersatz für Frauke und Leo
 
 Felder-Beschreibung Objekt Fledermaus
 
