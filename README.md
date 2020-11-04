@@ -4,31 +4,29 @@ Planung Matlab-Ersatz für Frauke und Leo
 
 Felder-Beschreibung Objekt Fledermaus
 
-ok season -> immer vom 15.7. bis 14.7. -> zB 2010-2011
-ok transponder -> bat-id
-ok sex -> aus erstmarkierung
-ok age at marking -> aus erstmarkierung
-ok age at season start -> aus erstmarkierung in erster season, dann ad
-ok marking date -> aus erstmarkierung
-ok marking location -> aus erstmarkierung
-ok first read date in ES -> 15.4. bis 14.7.
-ok last read date in ES -> 15.4. bis 14.7.
-ok # days with readings in ES -> anzahl tage in 15.4. bis 14.7.
-ok first read date in season (after 15.7.) -> erstes auftreten in season
-ok last read date before ES (15.4.) -> letztes auftreten vor dem 15.4.
+* ok season -> immer vom 15.7. bis 14.7. -> zB 2010-2011
+* ok transponder -> bat-id
+* ok sex -> aus erstmarkierung
+* ok age at marking -> aus erstmarkierung
+* ok age at season start -> aus erstmarkierung in erster season, dann ad
+* ok marking date -> aus erstmarkierung
+* ok marking location -> aus erstmarkierung
+* ok first read date in ES -> 15.4. bis 14.7.
+* ok last read date in ES -> 15.4. bis 14.7.
+* ok # days with readings in ES -> anzahl tage in 15.4. bis 14.7.
+* ok first read date in season (after 15.7.) -> erstes auftreten in season
+* ok last read date before ES (15.4.) -> letztes auftreten vor dem 15.4.
 
-Start LHI -> start longest hibernation interval lhi = längste periode ohne lesung
-End LHI  -> end longest hibernation interval
-# days with readings before LHI -> „differenz“ tage zwischen start LHI und 15.7.
-#days with readings after LHI (bis 15.4.) -> „differenz“ tage zwischen end LHI und 15.4.
-LHI length -> tage lhi
+* Start LHI -> start longest hibernation interval lhi = längste periode ohne lesung
+* End LHI  -> end longest hibernation interval
+* # days with readings before LHI -> „differenz“ tage zwischen start LHI und 15.7.
+* # days with readings after LHI (bis 15.4.) -> „differenz“ tage zwischen end LHI und 15.4.
+* LHI length -> tage lhi
 
-ok last read date in season -> letzte lesung 
-ok loggers;
+* last read date in season -> letzte lesung 
+* loggers;
 
-
-
-ES = early summer = 15.4. bis 14.7.
+* ES = early summer = 15.4. bis 14.7.
 
 
 
