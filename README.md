@@ -37,3 +37,6 @@ SELECT SUBSTR(Ablesungen_auto.Datum,1,10) AS Datum, SUBSTR(Ablesungen_auto.Uhrze
 Neu 2020: unit 5 zusätzlich zu 409 und 345
 
 SELECT SUBSTR(Ablesungen_auto.Datum,1,10) AS Datum, SUBSTR(Ablesungen_auto.Uhrzeit,11) AS Uhrzeit, Ablesungen_auto.TransponderID, Ablesungen_auto.LesegeraetID, Erstmarkierungen.OrtID AS Erst_Ort, SUBSTR(Erstmarkierungen.Datum,1,10) AS Erst_Datum, SUBSTR(Erstmarkierungen.Uhrzeit,11) AS Erst_Uhrzeit, Erstmarkierungen.Geschlecht, Erstmarkierungen.Alter, Erstmarkierungen.Art FROM Ablesungen_auto, Erstmarkierungen WHERE Ablesungen_auto.LesegeraetID IN (5,345,409) AND LOWER(Ablesungen_auto.TransponderID) = LOWER(Erstmarkierungen.TransponderPID) AND LOWER(Erstmarkierungen.Art) IN ('mn', 'md');
+
+Und auch neu: für wechsel:
+SELECT SUBSTR(Ablesungen_auto.Datum,1,10) AS Datum, SUBSTR(Ablesungen_auto.Uhrzeit,11) AS Uhrzeit, Ablesungen_auto.TransponderID, Ablesungen_auto.LesegeraetID, Erstmarkierungen.OrtID AS Erst_Ort, SUBSTR(Erstmarkierungen.Datum,1,10) AS Erst_Datum, SUBSTR(Erstmarkierungen.Uhrzeit,11) AS Erst_Uhrzeit, Erstmarkierungen.Geschlecht, Erstmarkierungen.Alter, Erstmarkierungen.Art FROM Ablesungen_auto, Erstmarkierungen WHERE Ablesungen_auto.LesegeraetID IN (4,345,409,456,469) AND LOWER(Ablesungen_auto.TransponderID) = LOWER(Erstmarkierungen.TransponderPID) AND LOWER(Erstmarkierungen.Art) IN ('mn') LIMIT 50000;
